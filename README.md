@@ -42,6 +42,7 @@ plt.show()
 <img width="435" height="608" alt="image" src="https://github.com/user-attachments/assets/b355ed27-be0f-4894-abbc-1ad21841a807" />
 
 #Scatter Plot
+```
 x=[10,20,30,40,50]
 y=[100,200,300,400,500] 
 plt.scatter(x,y,label='stars',color='green',marker='*',s=30) 
@@ -56,8 +57,9 @@ plt.ylabel('y axis')
 plt.title('Scatter plot') 
 plt.show()
 <img width="466" height="612" alt="image" src="https://github.com/user-attachments/assets/42cae9df-9146-4441-9f62-7f7a19399ee6" />
-
+```
 #Pie Chart:
+```
 act=['eat','sleep','work','play'] 
 slices=[3,7,8,6] 
 color=['r','y','g','b'] 
@@ -72,7 +74,7 @@ plt.pie(slices,labels=feedback,colors=color,startangle=90,shadow=True,explode=(0
 plt.legend()
 plt.show()
 <img width="413" height="586" alt="image" src="https://github.com/user-attachments/assets/352c6226-9769-4241-926a-d5f0387ed3e1" />
-
+```
 #Area Chart:
 x = [1, 2, 3, 4, 5] 
 y1 = [10, 12, 14, 16, 18]
