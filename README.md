@@ -38,6 +38,7 @@ plt.plot(attendence,student)
 plt.xlabel('Attendence')
 plt.ylabel('Student name')
 plt.show()
+```
 <img width="435" height="608" alt="image" src="https://github.com/user-attachments/assets/b355ed27-be0f-4894-abbc-1ad21841a807" />
 
 #Scatter Plot
