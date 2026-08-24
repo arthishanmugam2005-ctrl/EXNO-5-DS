@@ -121,7 +121,6 @@ data=np.random.normal(loc=0, scale=1, size=100)
 data
 ```
 <img width="460" height="248" alt="image" src="https://github.com/user-attachments/assets/44063a47-82ea-4674-90b2-afa2c3e27604" />
-```
 fig, ax= plt.subplots() 
 ax.boxplot(data)
 ax.set_xlabel('Data') 
@@ -129,6 +128,5 @@ ax.set_ylabel('Values')
 ax.set_title('Box Plot')
 ```
 <img width="450" height="333" alt="image" src="https://github.com/user-attachments/assets/da374aec-1708-45e7-80d7-38eed3ba5b92" />
-```
 # Result:
  Thus, all the data visualization techniques of matplotlib has been implemented.
