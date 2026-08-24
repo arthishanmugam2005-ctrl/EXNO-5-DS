@@ -56,10 +56,10 @@ plt.xlabel('X axis')
 plt.ylabel('y axis') 
 plt.title('Scatter plot') 
 plt.show()
+```
 <img width="466" height="612" alt="image" src="https://github.com/user-attachments/assets/42cae9df-9146-4441-9f62-7f7a19399ee6" />
 ```
 #Pie Chart:
-```
 act=['eat','sleep','work','play'] 
 slices=[3,7,8,6] 
 color=['r','y','g','b'] 
@@ -73,9 +73,11 @@ color=['y','r','b','g']
 plt.pie(slices,labels=feedback,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,autopct='%1.1f%%') 
 plt.legend()
 plt.show()
+```
 <img width="413" height="586" alt="image" src="https://github.com/user-attachments/assets/352c6226-9769-4241-926a-d5f0387ed3e1" />
 ```
 #Area Chart:
+```
 x = [1, 2, 3, 4, 5] 
 y1 = [10, 12, 14, 16, 18]
 y2 = [5, 7, 9, 11, 13] 
@@ -86,9 +88,9 @@ plt.plot(x, y1, color='red')
 plt.plot(x, y2, color='black') 
 plt.legend(['y1','y2']) 
 plt.show()
-
+```
 <img width="477" height="297" alt="image" src="https://github.com/user-attachments/assets/d66a0d1b-32b6-4a33-ae41-179ec78f5a49" />
-
+```
 #Bar Chart:
 height = [10, 24, 36, 40, 5] 
 names = ['one', 'two', 'three', 'four', 'five'] 
@@ -99,24 +101,29 @@ plt.xlabel('x - axis')
 plt.ylabel('y - axis')
 plt.title('My bar chart!') 
 plt.show()
+```
 <img width="461" height="326" alt="image" src="https://github.com/user-attachments/assets/9ecfc9cd-0c1c-4ee3-8621-6c27edcb5b55" />
+```
 #Histogram:
 x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1] 
 plt.hist(x, bins = 10, color='blue', alpha=0.5) 
 plt.show()
+```
 <img width="467" height="298" alt="image" src="https://github.com/user-attachments/assets/159fadc7-9edc-4800-a7bc-1e7776477ef4" />
-
+```
 #Box Plot:
 np.random.seed(0) 
 data=np.random.normal(loc=0, scale=1, size=100)
 data
+```
 <img width="460" height="248" alt="image" src="https://github.com/user-attachments/assets/44063a47-82ea-4674-90b2-afa2c3e27604" />
-
+```
 fig, ax= plt.subplots() 
 ax.boxplot(data)
 ax.set_xlabel('Data') 
 ax.set_ylabel('Values')
 ax.set_title('Box Plot')
+```
 <img width="450" height="333" alt="image" src="https://github.com/user-attachments/assets/da374aec-1708-45e7-80d7-38eed3ba5b92" />
 ```
 # Result:
