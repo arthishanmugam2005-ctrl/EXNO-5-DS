@@ -18,7 +18,8 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
- import pandas as pd 
+```
+import pandas as pd 
 import numpy as np 
 import seaborn as sns 
 import matplotlib.pyplot as plt
@@ -114,6 +115,6 @@ ax.set_xlabel('Data')
 ax.set_ylabel('Values')
 ax.set_title('Box Plot')
 <img width="450" height="333" alt="image" src="https://github.com/user-attachments/assets/da374aec-1708-45e7-80d7-38eed3ba5b92" />
-
+```
 # Result:
  Thus, all the data visualization techniques of matplotlib has been implemented.
